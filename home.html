@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Selmer Paris</title>
+    <link rel="stylesheet" href="stylesH.css">
+    <link rel="shortcut icon" href="/images/logo.webp" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="/home.html" class="logo">Selmer</a>
+        <span class="menu-toggle">☰</span>
+        <div class="menu">
+            <a href="/home.html">Home</a>
+            <a href="/about/about.html">About</a>
+            <a href="/contact/contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="content">
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="/images/saxb.png" alt="Imagen 1">
+            <img src="/images/saxd.png" alt="Imagen 2">
+            <img src="/images/saxn.png" alt="Imagen 3">
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <h1 class="text-center text-danger">Tipos de Saxofones</h1>
+
+    <div class="tarjetas-container">
+        <div class="tarjeta">
+            <img src="/images/sxsor2.png" alt="Imagen 1">
+            <div class="contenido">
+                <h3>Saxofon Soprano.</h3>
+                <p>El saxofon Soprano recto esta hecho para el lado de jazz.</p>
+                <button>Más Información</button>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="/images/sxsoc2.png" alt="Imagen 2">
+            <div class="contenido">
+                <h3>Saxofon Soprano Curco.</h3>
+                <p>Es lo mismo que el saxofon soprano pero curvo, hecho para jazz y clasico.</p>
+                <button>Más Información</button>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="/images/sxa2.png" alt="Imagen 3">
+            <div class="contenido">
+                <h3>Saxofon Alto.</h3>
+                <p>Saxofon mas comun para inciar en este mundo.</p>
+                <button>Más Información</button>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="/images/sxt2.png" alt="Imagen 4">
+            <div class="contenido">
+                <h3>Saxofon Tenor.</h3>
+                <p>Saxofon mas grande que el saxofon alto, hecho para jazz y clasico.</p>
+                <button>Más Información</button>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="/images/sxb2.png" alt="Imagen 5">
+            <div class="contenido">
+                <h3>Saxofon Baritono.</h3>
+                <p>Saxofon mas grande que el saxofon tenor, hecho para classico y salsa.</p>
+                <button>Más Información</button>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="/images/sxco2.png" alt="Imagen 6">
+            <div class="contenido">
+                <h3>Saxofon Contrabajo.</h3>
+                <p>Saxofon mas grande que el Saxofon Baritono, no tan comunmente visto.</p>
+                <button>Más Información</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <form id = "formulario">
+            <h2 class="text-center text-primary">Registro de Usuario</h2>
+            <div class="form-group">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Register</button>
+        </form>
+    </div>
+</div>
+
+    <script src="appH.js"></script>
+</body>
+</html>
