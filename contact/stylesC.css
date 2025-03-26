@@ -10,7 +10,6 @@ body {
     padding: 20px;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -33,7 +32,7 @@ body {
 }
 
 .menu {
-    display: flex;  /* Cambiado de 'none' a 'flex' */
+    display: flex;  
     gap: 15px;
 }
 
@@ -48,7 +47,6 @@ body {
     transition: margin-top 0.7s ease-in-out;
 }
 
-/* CAROUSEL */
 .carousel-container {
     position: relative;
     width: 100%;
@@ -69,7 +67,6 @@ body {
     object-fit: cover;
 }
 
-/* BOTONES */
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -89,7 +86,6 @@ body {
     background: rgba(0, 0, 0, 0.8);
 }
 
-/* FORMULARIO */
 #formulario {
     width: 100%;
     max-width: 80%;
@@ -135,12 +131,11 @@ textarea {
     padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
-    resize: none; /* Evita que el usuario lo redimensione manualmente */
-    overflow-y: hidden; /* Oculta el scroll vertical */
-    min-height: 50px; /* Altura mínima inicial */
+    resize: none; 
+    overflow-y: hidden; 
+    min-height: 50px; 
 }
 
-/* RESPONSIVE */
 @media screen and (max-width: 768px) {
     .menu {
         display: flex;
@@ -166,7 +161,7 @@ textarea {
     }
 
     .menu.active {
-        max-height: 200px; /* Ajusta según la cantidad de elementos */
+        max-height: 200px; 
     }
 
     #formulario{

@@ -10,7 +10,6 @@ body {
     padding: 20px;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -33,7 +32,7 @@ body {
 }
 
 .menu {
-    display: flex;  /* Cambiado de 'none' a 'flex' */
+    display: flex; 
     gap: 15px;
 }
 
@@ -48,7 +47,6 @@ body {
     transition: margin-top 0.7s ease-in-out;
 }
 
-/* CAROUSEL */
 .carousel-container {
     position: relative;
     width: 100%;
@@ -69,7 +67,6 @@ body {
     object-fit: cover;
 }
 
-/* BOTONES */
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -89,7 +86,6 @@ body {
     background: rgba(0, 0, 0, 0.8);
 }
 
-/* TARJETAS */
 .tarjetas-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -145,7 +141,6 @@ body {
     background: #0056b3;
 }
 
-/* FORMULARIO */
 #formulario {
     width: 100%;
     max-width: 80%;
@@ -191,7 +186,7 @@ input {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-/* RESPONSIVE */
+
 @media screen and (max-width: 768px) {
     .tarjetas-container {
         grid-template-columns: repeat(1, 1fr);
@@ -221,7 +216,7 @@ input {
     }
 
     .menu.active {
-        max-height: 200px; /* Ajusta según la cantidad de elementos */
+        max-height: 200px; 
     }
 
     #formulario{

@@ -5,7 +5,7 @@ document.querySelector(".menu-toggle").addEventListener("click", function() {
     menu.classList.toggle("active");
 
     if (menu.classList.contains("active")) {
-        content.style.marginTop = "150px"; // Ajusta según el tamaño del menú
+        content.style.marginTop = "150px"; 
     } else {
         content.style.marginTop = "0";
     }
@@ -25,7 +25,7 @@ function showImage(i) {
 document.querySelector(".next").addEventListener("click", () => showImage(index + 1));
 document.querySelector(".prev").addEventListener("click", () => showImage(index - 1));
 
-setInterval(() => showImage(index + 1), 3000); // Cambio automático cada 3s
+setInterval(() => showImage(index + 1), 3000); 
 
 document.getElementById('formulario').addEventListener('submit', async function(event) {
     event.preventDefault();

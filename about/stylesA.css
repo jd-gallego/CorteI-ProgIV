@@ -10,7 +10,6 @@ body {
     padding: 20px;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -33,7 +32,7 @@ body {
 }
 
 .menu {
-    display: flex;  /* Cambiado de 'none' a 'flex' */
+    display: flex;  
     gap: 15px;
 }
 
@@ -52,7 +51,6 @@ h1{
     margin: 20px;
 }
 
- /* CONTENEDOR PRINCIPAL */
  .contenedor {
     display: flex;
     align-items: center;
@@ -60,14 +58,12 @@ h1{
     gap: 20px;
 }
 
-/* IMAGEN (LADO IZQUIERDO) */
 .contenedor img {
     width: 50%;
     height: auto;
     object-fit: cover;
 }
 
-/* TEXTO (LADO DERECHO) */
 .contenido {
     width: 50%;
     padding: 20px;
@@ -109,21 +105,21 @@ h1{
     }
 
     .menu.active {
-        max-height: 200px; /* Ajusta según la cantidad de elementos */
+        max-height: 200px; 
     }
 
     .contenedor {
-        flex-direction: column; /* Cambia la dirección a vertical */
+        flex-direction: column; 
         align-items: center;
         text-align: center;
     }
 
     .contenedor img {
-        width: 100%; /* La imagen ocupa todo el ancho */
+        width: 100%; 
     }
 
     .contenido {
-        width: 100%; /* El texto también ocupa todo el ancho */
+        width: 100%; 
         padding: 15px;
     }
 }

@@ -4,9 +4,8 @@ document.querySelector(".menu-toggle").addEventListener("click", function() {
 
     menu.classList.toggle("active");
 
-    // Ajustar el margen del contenido según el estado del menú
     if (menu.classList.contains("active")) {
-        content.style.marginTop = "200px"; // Ajusta este valor según la altura del menú
+        content.style.marginTop = "200px"; 
     } else {
         content.style.marginTop = "0";
     }
